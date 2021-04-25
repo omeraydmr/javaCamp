@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Car car1 = new Car(1,"BMW", "520" , 2019);
+		Car car2 = new Car(2,"Mercedes" , "S400" , 2020);
+		
+		Cooperation cooperation = new Cooperation(90, "Aydemirler", "Ömer");
+		
+		System.out.println("Welcome to "+ cooperation.name);
+		
+		CarManager carmanager = new CarManager();
+		carmanager.addCar(car1);
+		carmanager.cancelCar(car2);
+	}
+
+}

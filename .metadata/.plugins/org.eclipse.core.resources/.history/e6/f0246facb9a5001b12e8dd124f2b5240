@@ -1,0 +1,10 @@
+
+public class CarManager {
+	public void addCar(Car car) {
+		System.out.println("This "+ car.brand.toUpperCase()+" "+ car.model.toLowerCase() + " added.");
+	}
+	
+	public void cancelCar(Car car) {
+		System.out.println("This "+ car.brand.toUpperCase()+" "+car.brand.toUpperCase() + " cancelled.");
+	}
+}

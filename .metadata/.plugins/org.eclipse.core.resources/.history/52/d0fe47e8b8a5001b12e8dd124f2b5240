@@ -1,0 +1,6 @@
+
+public class CarManager {
+	public void addCar(Car car) {
+		System.out.println("This "+ car + " added");
+	}
+}

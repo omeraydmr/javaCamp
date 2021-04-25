@@ -1,0 +1,11 @@
+
+public class Cooperation {
+	int id;
+	String name;
+	String surname;
+	String classroom;
+	
+	public Teacher(int id, String name, String surname, String classroom) {
+		
+	}
+}
